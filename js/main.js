@@ -5,6 +5,8 @@ $(function() {
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
+  const logo_footer = document.getElementById('logo-footer');
+  const logo_404 = document.getElementById('logo-404');
 
   if (night) {
     input.checked = true;
@@ -68,6 +70,14 @@ $(function() {
     scale: 1,
     viewFactor: 0.3,
   });
+
+  if (body.classList.contains('night')) {
+    logo_footer.style.filter = 'drop-shadow(0px 0px 7px)';
+    logo_404.style.filter = 'drop-shadow(0px 0px 7px)';
+  } else {
+    logo_footer.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
+    logo_404.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
+  }
 
   sr.reveal('.background');
   sr.reveal('.education');
