@@ -17,10 +17,15 @@ $(function() {
     const isChecked = input.checked;
     if (isChecked) {
       body.classList.remove('night');
+      logo_footer.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
+      logo_404.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
     } else {
       body.classList.add('night');
+      logo_footer.style.filter = 'drop-shadow(0px 0px 7px)';
+      logo_404.style.filter = 'drop-shadow(0px 0px 7px)';
     }
   });
+
 
   const introHeight = document.querySelector('.intro').offsetHeight;
   const topButton = document.getElementById('top-button');
@@ -70,14 +75,6 @@ $(function() {
     scale: 1,
     viewFactor: 0.3,
   });
-
-  if (body.classList.contains('night')) {
-    logo_footer.style.filter = 'drop-shadow(0px 0px 7px)';
-    logo_404.style.filter = 'drop-shadow(0px 0px 7px)';
-  } else {
-    logo_footer.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
-    logo_404.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
-  }
 
   sr.reveal('.background');
   sr.reveal('.education');
