@@ -1,0 +1,12 @@
+<section class="section interests">
+  <div class="section__title">Interest Areas</div>
+  <div class="section__content">
+    {% for interest in site.data.interests %}
+    <div class="interest">
+      {% for item in interest.areas %}
+      <span class="interest__item">{{item.area}}</span>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

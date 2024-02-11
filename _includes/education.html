@@ -1,0 +1,24 @@
+<section class="section education">
+  <div class="section__title">Education</div>
+  <div class="section__content">
+    <div class="unis">
+      {% for education in site.data.education %}
+      <div class="uni">
+        <div class="time-place">
+          <div class="uni__university">
+            <a href="{{education.url}}" target="_blank"><img class="university_logo" src="{{site.baseurl}}/img/education/{{education.university}}.png" alt="" /></a>
+            <div class="uni__name_pos_container">
+              <a class="uni__university__name" href="{{education.url}}" target="_blank">{{education.university}}</a>
+              <div class="uni__position">{{education.program}}</div>
+            </div>
+          </div>
+          <div class="uni__time_location_container">
+            <div class="uni__time">{{education.time}}</div>
+            <div class="uni__time">{{education.location}}</div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

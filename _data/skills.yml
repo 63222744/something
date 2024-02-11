@@ -1,0 +1,61 @@
+programming_markup_languages:
+  - item: Python
+  - item: Java
+  - item: JavaScript # (ES6)
+  - item: SQL
+  - item: HTML
+  - item: CSS
+  - item: XML
+  - item: JSON
+  - item: LaTeX
+  - item: Regular Expressions (RegEx)
+
+ml_technologies:
+  - item: Microsoft Azure AI
+  - item: Jupyter Notebooks
+  - item: Matplotlib
+  - item: Seaborn
+  - item: NumPy
+  - item: Pandas
+  - item: SciKit Learn
+  - item: TensorFlow
+  - item: Keras
+  - item: PyTorch
+  - item: OpenCV
+
+# frontend_technologies:
+#   - item: React.js
+#   - item: Material UI (MUI)
+#   - item: Axios
+#   - item: Node.js
+#   - item: Express.js
+
+databases:
+  - item: MySQL
+  - item: HyperSQL
+  - item: Firebase
+  - item: Azure Cosmos
+  - item: MongoDB
+  - item: Neo4J
+  - item: ElasticSearch
+  - item: Pinecone
+
+# other:
+#   - item: Version Control Systems # (Git, Github, Gitlab, Bitbucket, Azure Repos)
+#   - item: Project Management Tools # (Jira, Azure Boards, etc.)
+#   - item: JavaFX
+#   - item: Postman
+#   - item: Microsoft Office
+
+other_technologies:
+  - item: BeautifulSoup
+  - item: FastAPI
+  - item: Version Control Systems # (Git, Github, Gitlab, Bitbucket, Azure Repos)
+  - item: Project Management Tools # (Jira, Azure Boards, etc.)
+  - item: React.js
+  - item: Material UI (MUI)
+  - item: Node.js
+  - item: Express.js
+  - item: Postman
+  - item: JavaFX
+  - item: Microsoft Office

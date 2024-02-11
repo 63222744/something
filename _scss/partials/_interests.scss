@@ -1,0 +1,25 @@
+.interests {
+    .interest {
+        max-width: 1000px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        &__item {
+            display: inline-block;
+            margin: 3px 3px 3px 0;
+        //   font-family: 'Inconsolata', monospace;
+            font-size: 1rem;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 5px;
+            border: 1px solid $blue;
+            background: transparent;
+            &:first-of-type {
+            margin-left: 0;
+            }
+        }
+    }
+}

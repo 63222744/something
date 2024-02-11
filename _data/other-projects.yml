@@ -1,0 +1,148 @@
+# VavaCars Chatbot
+
+- name: "Personal Loan Modeling: Predicting Potential Candidates for Personal Loans"
+  url: https://www.kaggle.com/code/odabashi/personal-loan-modelling-solving-data-imbalance
+  description:
+    <a class="small">🚀 Machine Learning Project (July 2023)</a>
+    <br/>
+    <br/>
+    This project addresses the challenge of converting liability customers to personal loan customers for a bank by predicting the potential candidates for personal loans based on their information and behavior collected in form of dataset. The main challenge encountered is that the dataset is imbalanced, which negatively could impact the performance of the predictive models. In order to get insights into the data, my teammate and I conducted Exploratory Data Analysis. We performed Data Preparation by involving Outlier Handling, Feature Engineering, Dimensionality Reduction, etc. We addressed the main problem that we faced in our data which is the data imbalance using data sampling techniques such as SMOTE and One-Sided-Selection. We utilized different traditional Machine Learning Algorithms (Logistic Regression, SVM, Random Forest, Balanced Bagging, XGBoost, Voting, etc.) for training and fine-tuned the hyperparameters of the models in order to get the best performance. Finally, we evaluated the models on the test set of our data. The scope of the project aligns with a Master's degree course, showcasing proficiency in data analysis, machine learning, and model training and evaluation, and dealing with imbalanced data. The Notebook of the project is published on Kaggle.
+  used:
+    - thing: Python
+    - thing: Machine Learning
+    - thing: Exploratory Data Analysis (EDA)
+    - thing: Handling Data Imbalance
+    - thing: Jupyter Notebooks
+    - thing: NumPy
+    - thing: Pandas
+    - thing: Matplotlib
+    - thing: Seaborn
+    - thing: SciKit Learn
+    - thing: XGBoost
+
+
+- name: Drowsiness Detection System via Eye Tracking Technology
+  description:
+    <a class="small">🚀 Computer Vision Project (January 2023)</a>
+    <br/>
+    <br/>
+    This project aimed to develop a robust Drowsiness Detection System leveraging Deep Learning methodologies and Eye Tracking Technology. At the heart of the project was a custom-designed Convolutional Neural Network (CNN) architecture that was trained on the <a class="underline-link" href="https://www.kaggle.com/datasets/muhammadhananasghar/oace-open-and-close-eyes-dataset" target="_blank">OACE (Open and Close Eyes) Dataset</a>. This broad dataset allowed for the accurate identification of eye states (open or closed), which is paramount for determining signs of drowsiness. Before being incorporated into the network, the dataset was subjected to a series of Image Processing Procedures to guarantee the highest quality of data for input to the model. The system was designed to proficiently detect drowsiness in real-time, with the intention of reducing the likelihood of accidents caused by exhaustion. This project was exclusively conceptualized and executed as part of my master's degree coursework. The primary objective was to showcase the application of learned concepts in deep learning and image processing in a real-world context.
+  used:
+    - thing: Python
+    - thing: Deep Learning
+    - thing: Convolutional Neural Networks (CNNs)
+    - thing: Jupyter Notebooks
+    - thing: NumPy
+    - thing: Pandas
+    - thing: Matplotlib
+    - thing: Seaborn
+    - thing: Keras
+    - thing: OpenCV
+
+
+# SQuAD with BiDAF
+
+# TurKaracter
+
+- name: Tithenai
+  url: https://github.com/abodaotabashi/tithenai
+  description:
+    <a class="small">🌐 Web Application (July 2022)</a>
+    <br/>
+    <br/>
+    My teammates and I developed Tithenai, a web-based platform designed to facilitate collaboration between scholars and undergraduate students. Tithenai serves as a common ground for publishing, sharing, and drawing inspiration from research work throughout the academic journey. As the individual responsible for frontend development in the team, I played a key role in meticulously crafting the platform using React.js and Material UI.js for visually appealing designs, ensuring a user-friendly and responsive experience across various devices, adhering to the principles of responsive web design. Node.js and Express.js on the backend, with Firebase as the database, create a robust client-server model capable of efficiently managing data and user requests. Accessible through browsers on both computers and mobile phones and available in different languages, Tithenai simplifies scientific writing and publishing, offering a unique space for undergraduates to share their work and inspire others in a distinct manner from existing scholarly social networks. Check out the demo of the project <a class="underline-link" href="https://tithenai.vercel.app/" target="_blank">here</a>.
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: JavaScript
+    - thing: React.js
+    - thing: Material UI
+    - thing: Responsive Web Design
+    - thing: Git
+    - thing: Github
+
+# Candidate Matcher
+
+- name: Bookiew
+  url: https://github.com/abodaotabashi/bookiew
+  description:
+    <a class="small">🌐 Web Application (July 2021)</a>
+    <br/>
+    <br/>
+    Bookiew is a web application revolutionizing the way readers and authors interact with book reviews. Bookiew allows users to contribute short reviews, helping others discover suitable books and providing writers with constructive feedback. The Application utilizes React.js for the user interfaces, an Express.js Server for functionality, and MySQL as the database, following a Client-Server model architecture. Bookiew's user-friendly interface, ensures a seamless experience, allowing users to rate and comment on reviews, promoting a dynamic platform for book enthusiasts to connect, share opinions, and discover new reads.
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: JavaScript
+    - thing: React.js
+    - thing: SQL
+    - thing: MySQL
+    - thing: Node.js
+    - thing: Express.js
+    - thing: Postman
+    - thing: Git
+    - thing: Github
+
+- name: "HR Analytics: Potential Candidates Prediction"
+  url: https://github.com/abodaotabashi/HRAnalytics
+  description:
+    <a class="small">🚀 Machine Learning Project (July 2021)</a>
+    <br/>
+    <br/>
+    As a submission for the INF502 (Machine Learning) course at Turkish German University, our project addresses the recruitment needs of a Big Data and Data Science company. Focused on predicting candidates' likelihood to seek new job opportunities after completing company-sponsored courses, the project employed various models (Stochastic Gradient Descent, Logistic Regression, Linear SVC, Random Forest, Extra Trees, and Soft Voting Classifier) to identify the most effective approach. The utilized dataset provided insights into candidates' training and practical experience. This predictive analysis aims to assist the company in efficiently recruiting candidates genuinely interested in post-course employment, thereby saving time, resources, and enhancing course quality.
+  used:
+    - thing: Python
+    - thing: Machine Learning
+    - thing: Exploratory Data Analysis (EDA)
+    - thing: Jupyter Notebooks
+    - thing: NumPy
+    - thing: Pandas
+    - thing: Matplotlib
+    - thing: Seaborn
+    - thing: Scikit Learn
+
+- name: "BF1Karte: Banking Product Purchase Prediction"
+  url: https://colab.research.google.com/drive/15lyfa_zJeDForTO5spS7Cst3c-3WnnEI?usp=sharing#scrollTo=Pj3dL5gaqfXz
+  description:
+    <a class="small">🚀 Machine Learning Project (January 2021)</a>
+    <br/>
+    <br/>
+    As a part of the INF505 (Data Mining) course at Turkish German University, my team and I collaborated to develop a predictive model using a Random Forest algorithm to assess the likelihood of customers at BestFinansBir (BF1) company applying for their new financial product, BF1Karte. Leveraging Explainable Artificial Intelligence (XAI) techniques, we identified and analyzed influential features, earning our project an A+ grade. Tasked with optimizing cost-effective marketing strategies, the model accurately predicts customer purchases, facilitating targeted recruitment efforts through telephone contact and in-branch consultations. Utilizing data from a partner company's recent credit card introduction, we assumed structural similarities between their customers and BF1's, resulting in a high-degree classification accuracy model.
+  used:
+    - thing: Python
+    - thing: Machine Learning
+    - thing: Exploratory Data Analysis (EDA)
+    - thing: Jupyter Notebooks
+    - thing: NumPy
+    - thing: Pandas
+    - thing: Matplotlib
+    - thing: Seaborn
+    - thing: Scikit Learn
+    - thing: Explainable Artificial Intelligence (XAI)
+
+- name: HomeBook
+  url: https://github.com/abodaotabashi/homebook/
+  description:
+    <a class="small">📱 Mobile (Android) Application (January 2021)</a>
+    <br/>
+    <br/>
+    Collaborating with fellow students, we developed as part of the INF303 (Software Engineering Project) course at Turkish-German University the HomeBook, which is an Android mobile application designed to streamline household expense management for individuals sharing a living space. HomeBook facilitates transparent expense tracking, allowing users to collaboratively plan, edit, and delete shared expenses, preventing disputes over housing costs. Supporting German and English languages, the app provides a global reach, offering features like reminders for upcoming payments and insightful statistics on past expenses, empowering users to manage their finances efficiently and proactively.
+  used:
+    - thing: Java
+    - thing: XML
+    - thing: Firebase
+    - thing: MVVM
+    - thing: Git
+    - thing: Github
+
+- name: Report Preparation System
+  description:
+    <a class="small">💻 Desktop Application (June 2020)</a>
+    <br/>
+    <br/>
+    As a part of the INF202 (Software Engineering) course at Turkish German University, this desktop application automates and simplifies the preparation of inspection result reports for inspection companies. The program manages data entries during report creation, ensuring accuracy by imposing restrictions on valid data intervals and predefined choices for streamlined information about employees, customers, equipment, and inspection results. It standardizes inspection reports, saving them as Excel files and creating printable copies in PDF format, aiming to enhance efficiency and uphold a high standard of data accuracy.
+  used:
+    - thing: Java
+    - thing: JavaFX
+    - thing: HyperSQL
+    - thing: MVC

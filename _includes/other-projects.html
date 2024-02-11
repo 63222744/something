@@ -1,0 +1,22 @@
+<section class="section other-projects">
+  <div class="section__title">Projects</div>
+  <div class="section__content">
+    {% for project in site.data.other-projects %}
+    <div class="project">
+      <div class="project__name">
+        {% if project.url %}
+          <a href="{{project.url}}" target="_blank" class="arrow-link" style="overflow-wrap: break-word; hyphens: manual;"> {{project.name}}</a>
+        {% else %}
+          <a class="arrow-link-disabled" target="_self">{{project.name}}</a>
+        {% endif %}
+      </div>
+      <p style="text-align: justify;">{{project.description}}</p>
+      <div class="project__used">
+        {% for item in project.used %}
+        <span class="project__used__item">{{item.thing}}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

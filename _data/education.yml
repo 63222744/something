@@ -1,0 +1,18 @@
+- university: Turkish-German University
+  url: https://www.tau.edu.tr
+  time: September 2022 - Present
+  location: Istanbul, Turkey
+  program: MSc. Computer Engineering (With Thesis)
+  description:
+    - item: "Current CGPA: 4.00/4.00"
+    - item: Main Focus on Artificial Intelligence, Machine Learning and Deep Learning
+
+- university: Turkish-German University
+  url: https://www.tau.edu.tr
+  time: September 2017 - July 2022
+  location: Istanbul, Turkey
+  program: BSc. Computer Engineering
+  description:
+    - item: "CGPA: 3.98/4.00 — (University Rank: 2/334)"
+    - item: Preparatory German Language Class (1 Year)
+    - item: "Bachelor's Thesis on Turkish Handwriting Recognition"

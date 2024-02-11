@@ -1,0 +1,46 @@
+<section class="section skills">
+  <div class="section__title">Skills</div>
+  <div class="section__content">
+    <!-- <p>I’ve picked up quite a few skills during the course of my three co-ops, and aim to improve these skills everyday. Here are a few of the technologies that I have experience with:</p> -->
+    <div class="skillz">
+      <div class="skillz__category">
+        <div class="skillz__category__label">Programming & Markup Languages</div>
+        <ul>
+          {% for language in site.data.skills.programming_markup_languages %}
+          <li class="skillz__category__item">- {{language.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">ML Technologies</div>
+        <ul>
+          {% for ml_technology in site.data.skills.ml_technologies %}
+          <li class="skillz__category__item">- {{ml_technology.item}}</li>
+          {% endfor %}
+        </ul>
+        <!-- <hr style="margin-right: 40%;" />
+        <ul>
+          {% for frontend_technology in site.data.skills.frontend_technologies %}
+          <li class="skillz__category__item">- {{frontend_technology.item}}</li>
+          {% endfor %}
+        </ul> -->
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">Databases</div>
+        <ul>
+          {% for database in site.data.skills.databases %}
+          <li class="skillz__category__item">- {{database.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">Other Technologies</div>
+        <ul>
+          {% for thing in site.data.skills.other_technologies %}
+          <li class="skillz__category__item">- {{thing.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

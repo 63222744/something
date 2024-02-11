@@ -1,0 +1,44 @@
+# Site settings
+name: Abdurrahman Odabashi
+title: Abdurrahman Odabashi | Machine Learning Engineer
+description: Data-driven problem solver and Machine Learning enthusiast
+url: https://odabashi.github.io/
+baseurl: ''
+email: odabasiabdurrahman@gmail.com
+logo: https://odabashi.github.io/img/logo/LogoCircledBlackWhite320px3D.png
+# resume: https://odabashi.github.io/resume.pdf
+social:
+  - title: Email
+    url: mailto:odabasiabdurrahman@gmail.com
+  # - title: X
+  #   url: https://x.com/bchiang7
+  # - title: instagram
+  #   url: https://instagram.com/bchiang7
+  - title: Kaggle
+    url: https://www.kaggle.com/odabashi
+  - title: Github
+    url: https://github.com/odabashi
+  - title: Linkedin
+    url: https://www.linkedin.com/in/abdurrahmanodabaşı
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
