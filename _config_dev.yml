@@ -2,18 +2,13 @@
 name: Abdurrahman Odabashi
 title: Abdurrahman Odabashi | Machine Learning Engineer
 description: Data-driven problem solver and Machine Learning enthusiast
-url: https://odabashi.github.io/
+url: https://odabashi.com
 baseurl: ''
 email: odabasiabdurrahman@gmail.com
-logo: https://odabashi.github.io/img/logo/LogoCircledBlackWhite320px3D.png
-# resume: https://odabashi.github.io/resume.pdf
+logo: https://63222744.github.io/something/img/logo/LogoCircledBlackWhite320px3D.png
 social:
   - title: Email
     url: mailto:odabasiabdurrahman@gmail.com
-  # - title: X
-  #   url: https://x.com/bchiang7
-  # - title: instagram
-  #   url: https://instagram.com/bchiang7
   - title: Kaggle
     url: https://www.kaggle.com/odabashi
   - title: Github
