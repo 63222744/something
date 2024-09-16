@@ -5,7 +5,7 @@
     <div class="project">
       <div class="project__name">
         {% if project.url %}
-          <a href="{{project.url}}" target="_blank" class="arrow-link" style="overflow-wrap: break-word; hyphens: manual;"> {{project.name}}</a>
+          <a href="{{project.url}}" target="_blank" class="arrow-link" style="white-space: initial; text-align: justify;"> {{project.name}}</a>
         {% else %}
           <a class="arrow-link-disabled" target="_self">{{project.name}}</a>
         {% endif %}

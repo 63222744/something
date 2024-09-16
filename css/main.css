@@ -670,7 +670,7 @@ strong {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 768px) {
   .skills .skillz {
     flex-wrap: wrap;
   }
@@ -678,7 +678,7 @@ strong {
 .skills .skillz__category {
   margin-right: 15px;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 768px) {
   .skills .skillz__category {
     width: 47%;
     margin-bottom: 25px;
@@ -712,7 +712,7 @@ strong {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 630px) {
   .experience .job .time-place {
     display: block;
   }
@@ -987,7 +987,7 @@ strong {
     margin-bottom: 25px;
   }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 768px) {
   .footer__copyright .top, .footer__copyright .bottom {
     display: inline-block;
   }
@@ -1003,7 +1003,7 @@ strong {
   margin: 0 3px;
   vertical-align: text-bottom;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 768px) {
   .footer__links {
     display: flex;
     justify-content: center;
@@ -1065,7 +1065,7 @@ strong {
   display: inline;
   width: 22px;
   max-height: 24px;
-  filter: brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(1722%) hue-rotate(195deg) brightness(102%) contrast(101%);
+  filter: brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(1722%) hue-rotate(195deg) brightness(90%) contrast(110%);
 }
 @media screen and (max-width: 850px) {
   .footer__links img {
