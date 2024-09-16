@@ -201,9 +201,10 @@ strong {
   font-weight: 700;
   display: inline-block;
   background-color: transparent;
-  white-space: nowrap;
   cursor: default;
   text-decoration: none;
+  white-space: initial;
+  text-align: justify;
 }
 
 .small {
