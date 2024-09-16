@@ -1,9 +1,10 @@
 # Site settings
-name: Abdurrahman Odabashi
-title: Abdurrahman Odabashi | Machine Learning Engineer
+name: Abdurrahman Odabashi's Personal Website
+title: Abdurrahman Odabashi | Artificial Intelligence Engineer
 description: Data-driven problem solver and Machine Learning enthusiast
+long_description: Data-driven problem solver and Machine Learning enthusiast with expertise in Generative AI (GenAI) and advanced Machine Learning techniques.
 url: https://odabashi.com/
-baseurl: https://odabashi.com/
+baseurl: https://63222744.github.io/something
 email: odabasiabdurrahman@gmail.com
 logo: https://odabashi.com/img/logo/LogoCircledBlackWhite320px3D.png
 # resume: https://odabashi.github.io/resume.pdf
@@ -13,7 +14,7 @@ social:
   - title: Linkedin
     url: https://www.linkedin.com/in/abdurrahmanodabaşı
   # - title: X
-  #   url: https://x.com/bchiang7
+  #   url: https://x.com/odabashiai
   # - title: instagram
   #   url: https://instagram.com/bchiang7
   - title: Kaggle
@@ -35,6 +36,8 @@ exclude:
   - 'build'
   - 'gulpfile.js'
   - 'package.json'
+  - 'package-lock.json'
+  - 'OTHER'
 
 keep_files:
   - 'CNAME'

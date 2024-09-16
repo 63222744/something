@@ -1,6 +1,6 @@
 {
   "name": "odabashi.com",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Data-driven problem solver and Machine Learning enthusiast",
   "repository": {
     "type": "git",
@@ -10,6 +10,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
+    "oldbuild": "npm ci && gulp build",
     "build": "gulp build"
   },
   "author": "Abdurrahman Odabashi",
@@ -17,7 +18,7 @@
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-eslint": "^6.0.0",

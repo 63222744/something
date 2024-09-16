@@ -8,27 +8,34 @@ $(function() {
   const logo_footer = document.getElementById('logo-footer');
   const logo_404 = document.getElementById('logo-404');
 
-  if (night) {
+  if (night === true) {
     input.checked = true;
     body.classList.add('night');
   } else {
-    logo_footer.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
-    logo_404.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
+    if (logo_footer != null) {
+      logo_footer.style.filter =
+        'brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(1722%) hue-rotate(195deg) brightness(90%) contrast(110%)';
+    }
+    if (logo_404 != null) {
+      logo_404.style.filter =
+        'brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(1722%) hue-rotate(195deg) brightness(90%) contrast(110%)';
+    }
   }
 
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
     if (isChecked) {
       body.classList.remove('night');
-      logo_footer.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
-      logo_404.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
+      logo_footer.style.filter =
+        'brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(1722%) hue-rotate(195deg) brightness(90%) contrast(110%)';
+      logo_404.style.filter =
+        'brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(1722%) hue-rotate(195deg) brightness(90%) contrast(110%)';
     } else {
       body.classList.add('night');
       logo_footer.style.filter = 'drop-shadow(0px 0px 7px)';
       logo_404.style.filter = 'drop-shadow(0px 0px 7px)';
     }
   });
-
 
   const introHeight = document.querySelector('.intro').offsetHeight;
   const topButton = document.getElementById('top-button');
