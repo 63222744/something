@@ -20,6 +20,9 @@
             &:first-of-type {
             margin-left: 0;
             }
+            @include small-mobile {
+                text-align: center;
+            }
         }
     }
 }

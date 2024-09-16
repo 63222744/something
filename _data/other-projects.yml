@@ -1,10 +1,12 @@
 - name: Tithenai
   url: https://github.com/abodaotabashi/tithenai
   description:
-    <div class="small">🌐 Web Application (July 2022)</div>
+    "<div style='text-align: justify;'>
+    <div class='small'>🌐 Web Application (July 2022)</div>
     <br/>
     <br/>
-    My teammates and I developed Tithenai, a web-based platform designed to facilitate collaboration between scholars and undergraduate students. Tithenai serves as a common ground for publishing, sharing, and drawing inspiration from research work throughout the academic journey. As the individual responsible for frontend development in the team, I played a key role in meticulously crafting the platform using React.js and Material UI.js for visually appealing designs, ensuring a user-friendly and responsive experience across various devices, adhering to the principles of responsive web design. Node.js and Express.js on the backend, with Firebase as the database, create a robust client-server model capable of efficiently managing data and user requests. Accessible through browsers on both computers and mobile phones and available in different languages, Tithenai simplifies scientific writing and publishing, offering a unique space for undergraduates to share their work and inspire others in a distinct manner from existing scholarly social networks. Check out the demo of the project <a class="underline-link" href="https://tithenai.vercel.app/" target="_blank">here</a>.
+    My teammates and I developed Tithenai, a web-based platform designed to facilitate collaboration between scholars and undergraduate students. Tithenai serves as a common ground for publishing, sharing, and drawing inspiration from research work throughout the academic journey. As the individual responsible for frontend development in the team, I played a key role in meticulously crafting the platform using React.js and Material UI.js for visually appealing designs, ensuring a user-friendly and responsive experience across various devices, adhering to the principles of responsive web design. Node.js and Express.js on the backend, with Firebase as the database, create a robust client-server model capable of efficiently managing data and user requests. Accessible through browsers on both computers and mobile phones and available in different languages, Tithenai simplifies scientific writing and publishing, offering a unique space for undergraduates to share their work and inspire others in a distinct manner from existing scholarly social networks. Check out the demo of the project <a class='underline-link' href='https://tithenai.vercel.app/' target='_blank'>here</a>.
+    </div>"
   used:
     - thing: HTML
     - thing: CSS
@@ -18,10 +20,12 @@
 - name: Bookiew
   url: https://github.com/abodaotabashi/bookiew
   description:
-    <div class="small">🌐 Web Application (July 2021)</div>
+    "<div style='text-align: justify;'>
+    <div class='small'>🌐 Web Application (July 2021)</div>
     <br/>
     <br/>
     Bookiew is a web application revolutionizing the way readers and authors interact with book reviews. Bookiew allows users to contribute short reviews, helping others discover suitable books and providing writers with constructive feedback. The Application utilizes React.js for the user interfaces, an Express.js Server for functionality, and MySQL as the database, following a Client-Server model architecture. Bookiew's user-friendly interface, ensures a seamless experience, allowing users to rate and comment on reviews, promoting a dynamic platform for book enthusiasts to connect, share opinions, and discover new reads.
+    </div>"
   used:
     - thing: HTML
     - thing: CSS
@@ -38,10 +42,12 @@
 - name: HomeBook
   url: https://github.com/abodaotabashi/homebook/
   description:
-    <div class="small">📱 Mobile (Android) Application (January 2021)</div>
+    "<div style='text-align: justify;'>
+    <div class='small'>📱 Mobile (Android) Application (January 2021)</div>
     <br/>
     <br/>
     Collaborating with fellow students, we developed as part of the INF303 (Software Engineering Project) course at Turkish-German University the HomeBook, which is an Android mobile application designed to streamline household expense management for individuals sharing a living space. HomeBook facilitates transparent expense tracking, allowing users to collaboratively plan, edit, and delete shared expenses, preventing disputes over housing costs. Supporting German and English languages, the app provides a global reach, offering features like reminders for upcoming payments and insightful statistics on past expenses, empowering users to manage their finances efficiently and proactively.
+    </div>"
   used:
     - thing: Java
     - thing: XML
@@ -52,10 +58,12 @@
 
 - name: Report Preparation System
   description:
-    <div class="small">💻 Desktop Application (June 2020)</div>
+    "<div style='text-align: justify;'>
+    <div class='small'>💻 Desktop Application (June 2020)</div>
     <br/>
     <br/>
     As a part of the INF202 (Software Engineering) course at Turkish German University, this desktop application automates and simplifies the preparation of inspection result reports for inspection companies. The program manages data entries during report creation, ensuring accuracy by imposing restrictions on valid data intervals and predefined choices for streamlined information about employees, customers, equipment, and inspection results. It standardizes inspection reports, saving them as Excel files and creating printable copies in PDF format, aiming to enhance efficiency and uphold a high standard of data accuracy.
+    </div>"
   used:
     - thing: Java
     - thing: JavaFX
