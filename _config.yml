@@ -5,17 +5,16 @@ description: Data-driven problem solver and Machine Learning enthusiast
 long_description: Data-driven problem solver and Machine Learning enthusiast with expertise in Generative AI (GenAI) and advanced Machine Learning techniques.
 url: https://odabashi.com/
 baseurl: https://odabashi.com/
-email: odabasiabdurrahman@gmail.com
+email: odabasiabdurrahman@gmail.com/img/Me.jpg
 logo: https://odabashi.com/img/logo/LogoCircledBlackWhite320px3D.png
-me: https://odabashi.com/img/Me.jpg
 # resume: https://odabashi.github.io/resume.pdf
 social:
   - title: Email
     url: mailto:odabasiabdurrahman@gmail.com
   - title: Linkedin
     url: https://www.linkedin.com/in/abdurrahmanodabaşı
-  # - title: X
-  #   url: https://x.com/bchiang7
+  - title: X
+    url: https://x.com/odabashiai
   # - title: instagram
   #   url: https://instagram.com/bchiang7
   - title: Kaggle
@@ -37,6 +36,8 @@ exclude:
   - 'build'
   - 'gulpfile.js'
   - 'package.json'
+  - 'package-lock.json'
+  - 'OTHER'
 
 keep_files:
   - 'CNAME'
