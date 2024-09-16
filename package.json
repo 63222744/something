@@ -1,18 +1,18 @@
 {
-  "name": "https://63222744.github.io/something/",
+  "name": "odabashi.com",
   "version": "0.0.0",
-  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "description": "Data-driven problem solver and Machine Learning enthusiast",
   "repository": {
     "type": "git",
-    "url": "https://63222744.github.io/something/"
+    "url": "https://odabashi.com/"
   },
-  "homepage": "https://63222744.github.io/something/",
+  "homepage": "https://odabashi.com/",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
-    "build": "npm ci && gulp build"
+    "build": "gulp build"
   },
-  "author": "63222744",
+  "author": "Abdurrahman Odabashi",
   "license": "ISC",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
