@@ -349,6 +349,14 @@ strong {
   transform: translateZ(0);
 }
 
+.logo_effect_night {
+  filter: drop-shadow(0px 0px 7px);
+}
+
+.logo_effect_day {
+  filter: brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(1722%) hue-rotate(195deg) brightness(90%) contrast(110%);
+}
+
 .switch-wrapper {
   display: flex;
   justify-content: center;

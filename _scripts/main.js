@@ -11,23 +11,27 @@ $(function() {
   if (night) {
     input.checked = true;
     body.classList.add('night');
-    logo_footer.style.filter = 'drop-shadow(0px 0px 7px)';
-    logo_404.style.filter = 'drop-shadow(0px 0px 7px)';
+    logo_footer.classList.add('logo_effect_night');
+    logo_404.classList.add('logo_effect_night');
   } else {
-    logo_footer.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
-    logo_404.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
+    logo_footer.classList.add('logo_effect_day');
+    logo_404.classList.add('logo_effect_day');
   }
 
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
     if (isChecked) {
       body.classList.remove('night');
-      logo_footer.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
-      logo_404.style.filter = 'brightness(50%) sepia(100) saturate(90) hue-rotate(200deg)';
+      logo_footer.classList.remove('logo_effect_night');
+      logo_404.classList.remove('logo_effect_night');
+      logo_footer.classList.add('logo_effect_day');
+      logo_404.classList.add('logo_effect_day');
     } else {
       body.classList.add('night');
-      logo_footer.style.filter = 'drop-shadow(0px 0px 7px)';
-      logo_404.style.filter = 'drop-shadow(0px 0px 7px)';
+      logo_footer.classList.add('logo_effect_night');
+      logo_404.classList.add('logo_effect_night');
+      logo_footer.classList.remove('logo_effect_day');
+      logo_404.classList.remove('logo_effect_day');
     }
   });
 
