@@ -741,6 +741,11 @@ strong {
 .experience .job__company__name {
   font-weight: 700;
 }
+@media screen and (max-width: 630px) {
+  .experience .job__company__name {
+    text-align: center;
+  }
+}
 .experience .job__name_pos_container {
   display: flex;
   flex-direction: column;
@@ -1040,7 +1045,7 @@ strong {
   transition: height 0.3s, opacity 0.3s, transform 0.3s;
   transform: translateY(-5px);
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px) {
   .footer__links a:after {
     display: none;
   }
@@ -1056,7 +1061,7 @@ strong {
   display: inline;
   letter-spacing: 1px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px) {
   .footer__links a .text {
     display: none;
   }

@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="footer__copyright">
     <div class="top">
-      <img src="{{site.baseurl}}/img/logo/LogoSquareTransparentWhite500px.png" alt="" width="36" height="36" id="logo-footer"/>
+      <img src="{{site.baseurl}}/img/logo/LogoSquareTransparentWhite500px.png" alt="Abdurrahman Odabashi Logo" width="36" height="36" id="logo-footer"/>
       <!-- <span>Powered by</span>
       <span>Abdurrahman Odabashi <script type="text/javascript">document.write( new Date().getFullYear() );</script> ©</span> -->
       <span><script type="text/javascript">document.write( new Date().getFullYear() );</script> © Made with ❤</span>
@@ -10,7 +10,7 @@
   <div class="footer__links">
     {% for link in site.social %}
     <a class="footer__link" href="{{link.url}}" target="_blank" title="{{link.title}}">
-      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}" title="{{link.title}}">
       <span class="text">{{link.title}}</span>
     </a>
     {% endfor %}

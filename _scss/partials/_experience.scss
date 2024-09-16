@@ -31,6 +31,9 @@
     }
     &__company__name {
       font-weight: 700;
+      @include weird-medium {
+        text-align: center;
+      }
     }
     &__name_pos_container {
       display: flex;

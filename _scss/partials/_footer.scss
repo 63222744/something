@@ -67,7 +67,7 @@
         opacity: 0;
         transition: height 0.3s, opacity 0.3s, transform 0.3s;
         transform: translateY(-5px);
-        @include little-desktop {
+        @include desktop {
           display: none;
         }
       }
@@ -82,7 +82,7 @@
         font-size: 0.9rem;
         display: inline;
         letter-spacing: 1px;
-        @include little-desktop {
+        @include desktop {
           display: none;
         }
       }
