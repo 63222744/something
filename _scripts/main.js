@@ -10,10 +10,15 @@ $(function() {
 
   if (night) {
     input.checked = true;
-    body.classList.add('night');
     logo_footer.classList.add('logo_effect_night');
     logo_404.classList.add('logo_effect_night');
+    logo_footer.classList.remove('logo_effect_day');
+    logo_404.classList.remove('logo_effect_day');
+    body.classList.add('night');
   } else {
+    body.classList.remove('night');
+    logo_footer.classList.remove('logo_effect_night');
+    logo_404.classList.remove('logo_effect_night');
     logo_footer.classList.add('logo_effect_day');
     logo_404.classList.add('logo_effect_day');
   }
@@ -21,17 +26,17 @@ $(function() {
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
     if (isChecked) {
-      body.classList.remove('night');
       logo_footer.classList.remove('logo_effect_night');
       logo_404.classList.remove('logo_effect_night');
       logo_footer.classList.add('logo_effect_day');
       logo_404.classList.add('logo_effect_day');
+      body.classList.remove('night');
     } else {
-      body.classList.add('night');
       logo_footer.classList.add('logo_effect_night');
       logo_404.classList.add('logo_effect_night');
       logo_footer.classList.remove('logo_effect_day');
       logo_404.classList.remove('logo_effect_day');
+      body.classList.add('night');
     }
   });
 
