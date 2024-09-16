@@ -1,11 +1,13 @@
 # Site settings
-name: Abdurrahman Odabashi
-title: Abdurrahman Odabashi | Machine Learning Engineer
+name: Abdurrahman Odabashi's Personal Website
+title: Abdurrahman Odabashi | Artificial Intelligence Engineer
 description: Data-driven problem solver and Machine Learning enthusiast
+long_description: Data-driven problem solver and Machine Learning enthusiast with expertise in Generative AI (GenAI) and advanced Machine Learning techniques.
 url: https://odabashi.com/
-baseurl: https://63222744.github.io/something/
+baseurl: https://odabashi.com/
 email: odabasiabdurrahman@gmail.com
 logo: https://odabashi.com/img/logo/LogoCircledBlackWhite320px3D.png
+me: https://odabashi.com/img/Me.jpg
 # resume: https://odabashi.github.io/resume.pdf
 social:
   - title: Email
