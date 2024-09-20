@@ -15,7 +15,9 @@
             font-weight: 700;
             padding: 2px 7px;
             border-radius: 5px;
-            border: 1px solid $blue;
+            border-image: linear-gradient(268deg, #fc00ff 0%, #00dbde 50%) 1;
+            border-width: 1px;
+            border-style: solid;
             background: transparent;
             &:first-of-type {
             margin-left: 0;

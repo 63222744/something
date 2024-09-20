@@ -87,10 +87,10 @@
         }
       }
     }
-    img {
+    #logo-footer {
       display: inline; //none;
-      width: 22px;
-      max-height: 24px;
+      width: 36px;
+      height: 36px;
       filter: brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(1722%) hue-rotate(195deg) brightness(90%) contrast(110%);
       @include little-desktop {
         display: inline-block;
